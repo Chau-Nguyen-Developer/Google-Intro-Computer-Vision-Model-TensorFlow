@@ -1,32 +1,31 @@
 # Google-Intro-Computer-Vision-Model-TensorFlow
 Practice creating a computer vision model that can recognize items of clothing with TensorFlow library. 
-## Fashion MNIST Classifier
+### Fashion MNIST Classifier
 
 A TensorFlow/Keras model that classifies 28x28 grayscale images of clothing into 10 categories.
 
 
+### Overview
 
-## Run in Google Colab
+This project trains a neural network on the Fashion MNIST dataset to recognize different types of clothing such as shirts, shoes, and bags. The model takes image data as input, preprocesses it, and predicts the most likely category.
 
-![Open in Colab and make a copy for yourself](https://colab.research.google.com/drive/1hvBOlMK98F6j9mYdokjm8C55h07_3eGP?usp=sharing)
 
-## Writing
+### Run in Google Colab
+
+Please open in Google Colab and make a copy for yourself.  
+[Chau.Google.ComputerVision.TensorFlow.ipynb](https://colab.research.google.com/drive/1hvBOlMK98F6j9mYdokjm8C55h07_3eGP?usp=sharing)
+
+### Writing
 
 I also wrote about what I learned from this project, including insights on data preparation and model design:  
 [Read the full post on Substack](https://substack.com/@ngocchaun1/note/p-193222578?utm_source=notes-share-action&r=4buxp2)
 
-## A sample image
+### A sample image
 ![An image of a shirt in pixel format](shirt_image.jpg)
 
----
 
-## Overview
 
-This project trains a neural network on the Fashion MNIST dataset to recognize different types of clothing such as shirts, shoes, and bags. The model takes image data as input, preprocesses it, and predicts the most likely category.
-
----
-
-## What the Notebook Does
+### What the Notebook Does
 
 * Loads the Fashion MNIST dataset
 * Normalizes pixel values
@@ -38,7 +37,7 @@ This project trains a neural network on the Fashion MNIST dataset to recognize d
 
 ---
 
-## Results
+### Results
 
 * Training highest accuracy: ~90% (91.51%)
 * Predicts clothing categories labeled from 0 to 9
@@ -56,7 +55,7 @@ This project trains a neural network on the Fashion MNIST dataset to recognize d
 
 ---
 
-## Concepts Covered
+### Concepts Covered
 
 * Neural networks (Dense layers)
 * Data preprocessing and normalization
@@ -66,7 +65,7 @@ This project trains a neural network on the Fashion MNIST dataset to recognize d
 
 ---
 
-## How to Use
+### How to Use
 
 1. Click the "Open in Colab" link above. Make a copy for yourself.
 2. Run all cells (Runtime → Run all)
@@ -75,19 +74,20 @@ This project trains a neural network on the Fashion MNIST dataset to recognize d
 
 ---
 
-## Project Structure
+### Project Structure
 
 * `notebook.ipynb` — main Colab notebook containing all code
 
 ---
 
-## Future Improvements
+### Future Improvements
 
 * Replace dense network with a Convolutional Neural Network (CNN)
 
 ---
 
-## Notes
+### Notes
 
-This project is intended as a learning exercise for me to understand the basics of deep learning, model training, and data preprocessing using TensorFlow and Keras.
+This project is intended as a learning exercise for me to understand the basics of deep learning, model training, and data preprocessing using TensorFlow and Keras.  
+Please visit Google Codelabs for more resources. Link: https://codelabs.developers.google.com/ 
 
