@@ -1,14 +1,22 @@
 # Google-Intro-Computer-Vision-Model-TensorFlow
 Practice creating a computer vision model that can recognize items of clothing with TensorFlow library. 
-# Fashion MNIST Classifier
+## Fashion MNIST Classifier
 
 A TensorFlow/Keras model that classifies 28x28 grayscale images of clothing into 10 categories.
 
----
+
 
 ## Run in Google Colab
 
-[![Open in Colab and make a copy for yourself](https://colab.research.google.com/drive/1hvBOlMK98F6j9mYdokjm8C55h07_3eGP?usp=sharing)
+![Open in Colab and make a copy for yourself](https://colab.research.google.com/drive/1hvBOlMK98F6j9mYdokjm8C55h07_3eGP?usp=sharing)
+
+## Writing
+
+I also wrote about what I learned from this project, including insights on data preparation and model design:  
+[Read the full post on Substack](https://substack.com/@ngocchaun1/note/p-193222578?utm_source=notes-share-action&r=4buxp2)
+
+## A sample image
+![An image of a shirt in pixel format](shirt_image.jpg)
 
 ---
 
